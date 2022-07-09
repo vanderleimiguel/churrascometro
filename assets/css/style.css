@@ -43,12 +43,14 @@ section input{
 section button{
   margin-top: 1rem;
   cursor: pointer;
-  color: blue;
+  color: black;
   font-size: 1.2rem;
+  transition: .2s ease-in-out;
 }
 
 button:hover{
-  color:red;
+  /* color:blue; */
+  background-color: aqua;
  }
 
 div#resultado{
