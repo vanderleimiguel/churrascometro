@@ -12,31 +12,34 @@
     <section id="layout">
       <section class="container">
         <h1>Churrascômetro</h1>
-        <input
-          id="adultos"
-          name="adultos"
-          type="number"
-          placeholder="Adultos"
-        />
-        <input
-          id="criancas"
-          name="criancas"
-          type="number"
-          placeholder="Crianças"
-        />
-        <input
-          id="duracao"
-          name="duracao"
-          type="number"
-          placeholder="Duração (h)"
-        />
 
-        <button onclick="calcular()">Calcular</button>
+        <form action="">
+          <input
+            id="adultos"
+            name="adultos"
+            type="number"
+            placeholder="Adultos"
+          />
+          <input
+            id="criancas"
+            name="criancas"
+            type="number"
+            placeholder="Crianças"
+          />
+          <input
+            id="duracao"
+            name="duracao"
+            type="number"
+            placeholder="Duração (h)"
+          />
+
+          <button type="button" onclick="calcular()">Calcular</button>
+          <button type="reset">Limpar</button>
+        </form>
 
         <div id="resultado"></div>
       </section>
     </section>
-    https://github.com/vanderleimiguel/churrascometro
 
     <script src="https://vanderleimiguel.github.io/churrascometro/assets/js/script.js"></script>
   </body>

@@ -46,8 +46,8 @@ function cervejaPP(duracao) {
 
 function bebidasPP(duracao) {
   if (duracao >= 6) {
-    return 1000
+    return 800
   } else {
-    return 500
+    return 400
   }
 }

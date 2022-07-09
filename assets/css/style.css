@@ -43,7 +43,13 @@ section input{
 section button{
   margin-top: 1rem;
   cursor: pointer;
+  color: blue;
+  font-size: 1.2rem;
 }
+
+button:hover{
+  color:red;
+ }
 
 div#resultado{
   padding: 0.5rem;
